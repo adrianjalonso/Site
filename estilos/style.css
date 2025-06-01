@@ -140,9 +140,10 @@ p.amor::before {
 div.mapa{
     display: flex;
     justify-content: center;
+    height: 450px;
 }
 iframe#mapa {
-    flex: 0 1 500px;
+    flex: 0 1 768px;
 }
 section.container-presentes {
     display: flex;
