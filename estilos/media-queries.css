@@ -2,6 +2,6 @@
 
 @media screen and (min-width: 768px) {
     frame#mapa {
-        width: 768px;
+        width: 90vw;
     }
 }
