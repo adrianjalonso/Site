@@ -119,12 +119,6 @@ h1 {
     text-align: center;
 }
 
-h1::before {
-    content: url(olivia.pg);
-    height: 50px;
-    width: 50px;
-}
-
 p {
     line-height: 1.5em;
     font-family: "Quicksand", sans-serif;
