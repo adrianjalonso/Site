@@ -58,10 +58,9 @@ main {
     padding-top:80px;
     display: flex;
     flex-flow: column nowrap;
-    width: 90vw;
+    width: 100vw;
     height: auto;
     align-items: center;
-    gap: 30px;
 }
 div.contadorb {
     text-align: center;
