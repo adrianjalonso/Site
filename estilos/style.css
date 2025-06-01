@@ -163,7 +163,7 @@ section.container-presentes > div > img {
 div.presentes {
     background-color: white;
     padding: 10px 5px;
-    flex: 0 1 150px;
+    flex: 0 1 130px;
     display: flex;
     width: 240px;
     height: 400px;
