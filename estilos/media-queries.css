@@ -5,3 +5,9 @@
         width: 380px;
     }
 }
+
+@media screen and (min-width: 1024px) {
+  div.presentes {
+    flex: 0 1 calc(33.33% - 15px); /* 3 colunas */
+  }
+}

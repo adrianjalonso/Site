@@ -8,7 +8,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    /*border: 2px dotted red;*/
+    /*outline: 1px dashed red;*/
 }
 :root {
     --cor1: #20539d;
@@ -19,7 +19,7 @@
 
 body {
     padding: 0px;
-    background-color: var(--cor3);
+    background-color: white;
 }
 nav {
     padding: 20px;
@@ -148,31 +148,35 @@ iframe#mapa {
 section.container-presentes {
     display: flex;
     flex-flow: row wrap;
-    max-width: 850px;
-    justify-content: center;
-    align-content: space-evenly;
-    margin: 30px 0px;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 30px auto;
     font-family: "Lato", sans-serif;
     gap: 15px;
+    padding: 0px 10px;
 }     
 section.container-presentes > div > img {
-    width: 206px;
-    height: 206px;
+    width: 100vw;
+    max-width: 160px;
+    height: auto;
     border-radius: 5px;
+    object-fit: contain;
+    margin-top: 10px;
 }
 div.presentes {
     background-color: white;
     padding: 10px 5px;
-    flex: 0 1 130px;
     display: flex;
-    width: 240px;
+    width: calc(48% - 10px);
+    min-height: 360px;
     height: 400px;
     flex-flow: column nowrap;
     align-items: center;
     border-radius: 10px;
     border: .2px solid #9da7b6b4;
-    box-shadow: 1px 1px 2px rgba(71, 71, 71, 0.219);
+    box-shadow: 1px 1px 5px rgba(71, 71, 71, 0.15);
     margin-bottom: 20px;
+    box-sizing: border-box;
 }
 
 h2.texto {
@@ -191,16 +195,17 @@ strong.precio{
 }
 
 a.botao {
-    width: 174px;
+    width: 100%;
+    max-width: 174px;
     height: 50px;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 10px;
     background-color: var(--cor1);
     color: white;
     text-decoration: none;
-    margin: auto;
-    padding: auto;
-    align-content: center;
+    margin-top: auto;
     font-size: 1em;
     font-weight: bolder;
     line-height: 1em;
