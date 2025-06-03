@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) {
-    frame#mapa {
-        width: 380px;
-    }
+  frame#mapa {
+    width: 380px;
+  }
 }
 
 @media screen and (min-width: 1024px) {

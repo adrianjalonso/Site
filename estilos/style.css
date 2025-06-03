@@ -8,7 +8,7 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-  /*outline: 1px dashed red;*/
+  outline: 1px dashed red;
 }
 :root {
   --cor1: #20539d;
@@ -57,7 +57,7 @@ main {
   padding-top: 80px;
   display: flex;
   flex-flow: column nowrap;
-  width: 100vw;
+  width: 100%;
   height: auto;
   align-items: center;
 }
@@ -237,12 +237,22 @@ img.olivia {
   margin: 10px 0px;
 }
 
-section.formulario {
+/*section.formulario {
   display: flex;
   flex-flow: column nowrap;
+  align-items: center;
+  flex: auto;
 }
 
-section.formulario > form {
+form {
   display: flex;
   flex-flow: column nowrap;
+  flex: 0 1 auto;
+  width: 50%;
 }
+
+input#iname {
+}
+label {
+  text-align: left;
+}*/
