@@ -113,8 +113,56 @@
             <img  class="olivia" src="olivia.png" alt="olivia">
             <div>
                 <h1>Confirme sua presença</h1>
-                <section class="formulario" >
-
+                <section class="formulario">
+                    <form action="cadastro" method="post" autocomplete="on" id="precenca">
+                        <figure class="texto">
+                            <label for="inome">Nome completo</label>
+                            <input type="text" name="nome" id="inome" placeholder="Insira seu nome completo">
+                        </figure>
+                        <figure class="select">
+                            <p>Você irá ao evento?</p>
+                                    <label for="iassistencia">
+                                       <input type="checkbox" name="assistencia" id="iassistencia"> Sim
+                                    </label>
+                                    <label for="iassistencia">
+                                       <input type="checkbox" name="assistencia" id="iassistencia"> Não
+                                    </label>
+                        </figure>
+                        <figure class="select">
+                            <label for="iqadultos">Quantidade de adultos incluindo você</label>
+                            <select name="iqadultos" id="iqadultos">
+                                <optgroup>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                </optgroup>
+                            </select>
+                        </figure>
+                        <figure class="select">
+                            <label for="iqcrianca">Quantidade de crianças</label>
+                            <select name="iqcrianca" id="iqcrianca" >
+                                <optgroup>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                </optgroup>
+                            </select>
+                        </figure>
+                    </form>
             </div>
         </section>
     </main>
@@ -141,7 +189,7 @@
   atualizarContagem(); // chamada inicial
 </script>
 <footer>
-    Site criado por <a href="https://github.com/adrianjalonso" target="_blank">Adrián Alons</a> 
+    Site criado por <a href="https://github.com/adrianjalonso" target="_blank">Adrián Alonso</a> 
 </footer>
 </body>
 </html>

@@ -8,7 +8,7 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-  outline: 1px dashed red;
+  /*outline: 1px dashed red;*/
 }
 :root {
   --cor1: #20539d;
@@ -170,7 +170,7 @@ article.presentes {
   flex-flow: column nowrap;
   align-items: center;
   border-radius: 10px;
-  border: 0.2px solid #9da7b6b4;
+  outline: 0.2px solid #9da7b6b4;
   box-shadow: 1px 1px 5px rgba(71, 71, 71, 0.15);
   margin-bottom: 20px;
   box-sizing: border-box;
@@ -236,23 +236,44 @@ img.olivia {
   width: auto;
   margin: 10px 0px;
 }
-
-/*section.formulario {
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
-  flex: auto;
-}
-
-form {
-  display: flex;
-  flex-flow: column nowrap;
-  flex: 0 1 auto;
-  width: 50%;
-}
-
-input#iname {
-}
 label {
-  text-align: left;
-}*/
+  line-height: 1.5em;
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  margin: 10px 0px;
+}
+section.formulario{
+  display: flex;
+  flex-flow: column nowrap;
+  height: 800px;
+  width: 100%;
+  align-content: center;
+}
+
+form#precenca {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  margin: 0px 20px;
+}
+figure.texto {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  outline: 1px solid #9da7b6b4;
+  padding: 0% 5%;
+}
+input#inome {
+ width: 90%;
+}
+figure.select {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 20px 0px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15%;
+}
+select {
+  width: 80px;
+}
