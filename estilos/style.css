@@ -248,6 +248,10 @@ section.formulario{
   height: 800px;
   width: 100%;
   align-content: center;
+  background-color: white;
+  border: 1px solid #9da7b6b4;
+  border-radius: 8px;
+  padding-top: 30px;
 }
 
 form#precenca {
@@ -260,11 +264,15 @@ figure.texto {
   display: flex;
   flex-flow: column nowrap;
   align-items: flex-start;
-  outline: 1px solid #9da7b6b4;
-  padding: 0% 5%;
+  width: 100%;
+  margin-bottom: 15px;
 }
 input#inome {
- width: 90%;
+ width: 100%;
+ height: 50px;
+ border-radius: 8px;
+ border: 1px solid #9da7b6b4;
+ padding: 10px;
 }
 figure.select {
   display: flex;
@@ -273,7 +281,24 @@ figure.select {
   justify-content: flex-start;
   align-items: center;
   gap: 15%;
+  border: 1px solid #9da7b6b4;
+  height: 80px;
+  padding: 35px;
+  border-radius: 8px;
+  margin-top: 20px;
 }
 select {
   width: 80px;
+  height: 40px;
+  border-radius: 8px;
+  text-align: center;
+  border: 1px solid #9da7b6b4;
 }
+label {
+  color: #78808c;
+  font-weight: bold;
+}
+figure.select > p {
+  color: #78808c;
+  font-weight: bold;
+} 
