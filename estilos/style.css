@@ -268,6 +268,7 @@ figure.texto {
   margin-bottom: 15px;
 }
 input#inome {
+  font-family: "Quicksand", sans-serif;
  width: 100%;
  height: 50px;
  border-radius: 8px;
@@ -287,6 +288,22 @@ figure.select {
   border-radius: 8px;
   margin-top: 20px;
 }
+input#iemail {
+  font-family: "Quicksand", sans-serif;
+  width: 100%;
+  height: 50px;
+  border-radius: 8px;
+  border: 1px solid #9da7b6b4;
+  padding: 10px;
+}
+input#itel {
+  font-family: "Quicksand", sans-serif;
+  width: 100%;
+  height: 50px;
+  border-radius: 8px;
+  border: 1px solid #9da7b6b4;
+  padding: 10px;
+}
 select {
   width: 80px;
   height: 40px;
@@ -302,3 +319,6 @@ figure.select > p {
   color: #78808c;
   font-weight: bold;
 } 
+figure.texto > p {
+  color: #777f8ab4;
+}
