@@ -20,6 +20,13 @@ body {
   padding: 0px;
   background-color: white;
 }
+i.material-symbols-outlined { 
+  font-size: 3em;
+  color: white;
+  text-align: center;
+  background-color: var(--cor1);
+  color: white;
+}
 nav {
   padding: 20px;
   text-align: center;
@@ -206,6 +213,7 @@ a.botao {
   font-size: 1em;
   font-weight: bolder;
   line-height: 1em;
+  text-align: center;
 }
 
 footer {
@@ -245,13 +253,14 @@ label {
 section.formulario{
   display: flex;
   flex-flow: column nowrap;
-  height: 800px;
   width: 100%;
   align-content: center;
   background-color: white;
   border: 1px solid #9da7b6b4;
   border-radius: 8px;
   padding-top: 30px;
+  padding-bottom: 20px;
+
 }
 
 form#precenca {
@@ -303,6 +312,7 @@ input#itel {
   border-radius: 8px;
   border: 1px solid #9da7b6b4;
   padding: 10px;
+  margin-bottom: 10px;
 }
 select {
   width: 80px;
@@ -322,3 +332,10 @@ figure.select > p {
 figure.texto > p {
   color: #777f8ab4;
 }
+
+figure.botao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+

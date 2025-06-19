@@ -7,9 +7,11 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-queries.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
-<body>
-    <nav>
+<body id="aqui" onscroll="esconderMenu()" onresize="mudouTamanho()">
+   <i id="burguer" class="material-symbols-outlined" onclick="clicou()">menu</i>
+    <nav onclick="escondeuMenu()" id="menu">
         <a href="#boav">HOME</a>
         <a href="#casal">O CASAL</a>
         <a href="#ceremonia">CERIMÔNIA</a>
@@ -171,32 +173,14 @@
                             <label for="cadastro">Telefone para contato</label>
                             <input type="tel" name="tel" id="itel" placeholder="(11) 99999-9999">
                         </figure>
+                        <figure class="botao">
+                            <a class="botao" href="#">Confirmar presença</a>
+                        </figure>
                     </form>
             </div>
         </section>
     </main>
-<script>
-
-  const targetDate = new Date("2025-10-04T00:00:00"); // Data do seu evento
-
-  function atualizarContagem() {
-    const agora = new Date();
-    const tempoRestante = targetDate - agora;
-
-    const dias = Math.floor(tempoRestante / (1000 * 60 * 60 * 24));
-    const horas = Math.floor((tempoRestante / (1000 * 60 * 60)) % 24);
-    const minutos = Math.floor((tempoRestante / (1000 * 60)) % 60);
-    const segundos = Math.floor((tempoRestante / 1000) % 60);
-
-    document.getElementById("dias").textContent = String(dias).padStart(3, "0");
-    document.getElementById("horas").textContent = String(horas).padStart(2, "0");
-    document.getElementById("minutos").textContent = String(minutos).padStart(2, "0");
-    document.getElementById("segundos").textContent = String(segundos).padStart(2, "0");
-  }
-
-  setInterval(atualizarContagem, 1000);
-  atualizarContagem(); // chamada inicial
-</script>
+<script src="script.js"></script>
 <footer>
     Site criado por <a href="https://github.com/adrianjalonso" target="_blank">Adrián Alonso</a> 
 </footer>

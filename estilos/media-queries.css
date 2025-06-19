@@ -1,13 +1,27 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   frame#mapa {
     width: 380px;
+  }
+  i#burguer {
+    display: block;
+  }
+  nav#menu{
+    display: none;
+  }
+  nav#menu > a {
+    width: 100%;
+    display: inline-block;
+    text-align: left;
   }
 }
 
 @media screen and (min-width: 1024px) {
   article.presentes {
     flex: 0 1 calc(33.33% - 15px); /* 3 colunas */
+  }
+  i#burguer {
+    display: none;
   }
 }
