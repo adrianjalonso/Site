@@ -15,6 +15,9 @@
   --cor2: #ffffff;
   --cor3: #f9f9f9;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   padding: 0px;
@@ -26,6 +29,9 @@ i.material-symbols-outlined {
   text-align: center;
   background-color: var(--cor1);
   color: white;
+  position: fixed;
+  margin: 10px;
+  border-radius: 10px;
 }
 nav {
   padding: 20px;
