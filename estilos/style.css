@@ -147,6 +147,10 @@ p.amor::after {
 p.amor::before {
   content: "\2764";
 }
+img#chacara {
+  height: 550px;
+  width: 850px;
+}
 div.mapa {
   display: flex;
   justify-content: center;

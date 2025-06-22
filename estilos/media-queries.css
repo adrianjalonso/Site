@@ -24,4 +24,8 @@
   i#burguer {
     display: none;
   }
+  nav {
+    display: block;
+    position: fixed;
+  }
 }
