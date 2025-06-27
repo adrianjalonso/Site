@@ -149,7 +149,7 @@ p.amor::before {
 }
 img#chacara {
   height: 550px;
-  width: 850px;
+  width: 100vw;
 }
 div.mapa {
   display: flex;
